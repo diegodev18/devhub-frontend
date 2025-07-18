@@ -8,7 +8,7 @@ import Header from "./components/header.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Header />
-    <main>
+    <main className="pt-[60px]">
       <App />
     </main>
     <Footer />
